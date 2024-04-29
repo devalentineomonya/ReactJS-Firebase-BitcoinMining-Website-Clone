@@ -1,4 +1,8 @@
-
+:root {
+  --blue: #0e5488;
+  --blue-light: #01477dc7;
+  
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;

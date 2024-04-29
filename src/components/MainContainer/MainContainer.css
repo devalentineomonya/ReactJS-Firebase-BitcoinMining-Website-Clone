@@ -11,7 +11,7 @@
     box-shadow: 0 5px 20px #333;
     border-radius: 10px;
     width: 400px;
-    height: 700px;
+    height: 800px;
     background: url("../../assets/Images/SiteImages/canvas.jpg");
     background-position: center;
     background-size: cover;
@@ -27,12 +27,13 @@
     height: 100%;
     top: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     backdrop-filter: blur(2px);
 }
 
 .content-container {
     backdrop-filter: blur(0px);
+    height: fit-content;
 }
 
 @media screen and (max-width:576px) {

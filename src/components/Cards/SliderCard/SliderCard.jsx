@@ -1,10 +1,9 @@
 import React from 'react'
 import "./SliderCard.css";
-import companyImg  from "../../../assets/Images/SiteImages/CompanyImages/companyImg (1).jpeg";
-const SliderCard = () => {
+const SliderCard = ({SliderImg}) => {
   return (
     <div className="slider-card">
-      <img src={companyImg}/>  
+      <img src={SliderImg.src} alt={SliderImg.alt}/>  
       
     </div>
   )

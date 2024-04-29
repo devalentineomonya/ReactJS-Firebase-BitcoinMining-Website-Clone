@@ -1,0 +1,44 @@
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-container {
+    overflow: hidden;
+    box-shadow: 0 5px 20px #333;
+    border-radius: 10px;
+    width: 400px;
+    height: 700px;
+    background: url("../../assets/canvas.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    backdrop-filter: blur(20px);
+    position: relative;
+}
+
+.content-background-blur,
+.content-container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+
+.content-container {
+    backdrop-filter: blur(0px);
+}
+
+@media screen and (max-width:576px) {
+    .main-content-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+}

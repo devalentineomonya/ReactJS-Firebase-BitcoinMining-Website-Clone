@@ -8,6 +8,7 @@
 
 .main-content-container {
     overflow: hidden;
+    overflow-y: scroll;
     box-shadow: 0 5px 20px #333;
     border-radius: 10px;
     width: 400px;
@@ -19,6 +20,16 @@
     background-clip: border-box;
     backdrop-filter: blur(20px);
     position: relative;
+ 
+}
+
+
+.main-content-container{
+    -ms-overflow-style: none;   
+      scrollbar-width: none;
+}
+.main-content-container::-webkit-scrollbar { 
+    display: none; 
 }
 
 .content-background-blur,
@@ -34,6 +45,7 @@
 .content-container {
     backdrop-filter: blur(0px);
     height: fit-content;
+    padding-bottom: 70px;
 }
 
 @media screen and (max-width:576px) {

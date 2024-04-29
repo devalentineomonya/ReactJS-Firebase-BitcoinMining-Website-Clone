@@ -1,0 +1,10 @@
+.new-card-main-container{
+    padding: 0 6px;
+    margin-top: 10px;
+
+}
+.new-card-container-title{
+    display: flex;
+padding-left: 6px;
+margin-bottom: 10px;
+}

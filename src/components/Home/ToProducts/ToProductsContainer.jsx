@@ -9,7 +9,7 @@ const ToProductsContainer = () => {
   return (
     <div className="product-list-swiper-container">
       <div className="product-list-title">
-        <h3>Products</h3>
+        <h3 className="section-title">Products</h3>
         <a href="/products">
           More <IoChevronForward size={20} className="icon-white" />
         </a>

@@ -6,15 +6,6 @@ const QuickLinks = () => {
   return (
     <div className="quick-link-container">
       <div className="quick-link-grid-container">
-       
-      {
-            QuickLinksItems.map((QuickLinksItem)=>{
-                console.log(QuickLinksItem)
-            })
-            
-           
-        }
-
         {QuickLinksItems.map((QuickLinksItem) => (
           <QuickLinkItem
             QuickLinksItem={QuickLinksItem}

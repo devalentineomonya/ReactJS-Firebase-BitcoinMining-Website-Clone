@@ -1,0 +1,46 @@
+.navbar-item-container {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar-icon {
+    width: 35px;
+    height: 35px;
+    color: #959595;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-icon.active {
+  color: rgb(18, 234, 61);
+}
+
+
+
+.navbar-item-container p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #959595;
+
+
+}
+
+.navbar-item-container .underline {
+    margin-top: 8px;
+    height: 2px;
+    width: 50%;
+    background: linear-gradient(to left, #41b06a, #4cc58a);
+}
+
+.navbar-item-container .hidden {
+    display: none;
+    transition: all 0.5s ease-in-out;
+}

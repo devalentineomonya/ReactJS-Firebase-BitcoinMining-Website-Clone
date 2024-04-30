@@ -1,0 +1,38 @@
+.products-navigator-container {
+    padding: 15px 0 15px 20px;
+    position: sticky;
+    top: 0px;
+    background-color: #032742ac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+}
+
+.navigator-links-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.navigator-links-container .navigator-item {
+    list-style: none;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.navigator-links-container .navigator-item.active::before {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: orange;
+    position: absolute;
+    bottom: 0;
+
+}

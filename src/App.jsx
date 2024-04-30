@@ -19,7 +19,7 @@ function App() {
           <Route path="/login" element={<h1>login Path</h1>} />
           <Route path="/register" element={<h1>login Path</h1>} />
           <Route path="/profile" element={<h1>login Path</h1>} />
-          <Route path="/*" element={<Navigate to="/"/>} />
+          <Route path="/*" element={<SpinnerLoader/>} />
         </Routes>
       </BrowserRouter>
 

@@ -1,6 +1,6 @@
 .loading-container {
     width: 100%;
-    height: 100%;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,7 @@
 }
 
 .loading-container img {
+    background-color: gray;
     animation: spin 0.35s linear infinite reverse;
 }
 

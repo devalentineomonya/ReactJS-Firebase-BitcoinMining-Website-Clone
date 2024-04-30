@@ -1,16 +1,24 @@
-import React, { useState } from "react";
 import "./Navbar.css";
 import NavbarItem from "./NavbarItem/NavbarItem";
 import NavLinks from "../../assets/Data/NavLinks.jsx";
+import { useLocation } from "react-router-dom";
+
 
 const Navbar = () => {
-  const [activeTab, setActiveTab] = useState(1)
+
+  const location = useLocation()
   return (
-    <div className="navbar">
-      {NavLinks.map((NavLink) => (
-        <NavbarItem NavLinkItem={NavLink} key={NavLink.id} active={activeTab === NavLink.id} setActiveTab={setActiveTab} />
-      ))}
-    </div>
+
+          <div className="navbar">
+            {NavLinks.map((NavLink) => (
+              <NavbarItem
+                NavLinkItem={NavLink}
+                key={NavLink.id}
+                active={ NavLink.href === location.pathname}
+              />
+            ))}
+          </div>
+    
   );
 };
 

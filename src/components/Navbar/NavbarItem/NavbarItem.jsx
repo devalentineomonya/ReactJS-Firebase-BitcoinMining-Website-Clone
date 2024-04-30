@@ -1,18 +1,22 @@
 import React from "react";
 import "./NavbarItem.css";
-const NavbarItem = ({ NavLinkItem, setActiveTab, active }) => {
+import { Link } from "react-router-dom";
+
+const NavbarItem = ({ NavLinkItem, active }) => {
   return (
-    <div
-      className="navbar-item-container"
-      onClick={() => setActiveTab(NavLinkItem.id)}
-    >
-      <div className={`navbar-icon ${active ? "active" : null}`}>
-        {active ? NavLinkItem.icon2 : NavLinkItem.icon1}
+    <Link to={NavLinkItem.href}>
+      <div
+        className="navbar-item-container"
+       
+      >
+        <div className={`navbar-icon ${active ? "active" : null}`}>
+          {active ? NavLinkItem.icon2 : NavLinkItem.icon1}
+        </div>
+
+        <p className={`${active ? "hidden" : null}`}>{NavLinkItem.name}</p>
+        <div className={`underline ${!active ? "hidden" : null}`}></div>
       </div>
-      
-     <p className={`${active ? "hidden" : null}`}>{NavLinkItem.name}</p>
-      <div className={`underline ${!active ? "hidden" : null}`}></div>
-    </div>
+    </Link>
   );
 };
 

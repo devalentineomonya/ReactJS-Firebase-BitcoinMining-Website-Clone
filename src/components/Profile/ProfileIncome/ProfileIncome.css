@@ -1,13 +1,14 @@
 .profile-income-container{
-    background-color: var(--light-blue);
+    background-color: #01477dd5;
     height: 200px;
+    width: 90%;
     padding: 0 20px;
     padding-top:10px;
-    border-top-right-radius:10px ;
-    border-top-left-radius:10px ;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
 }
 .income-item{
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content:space-between;

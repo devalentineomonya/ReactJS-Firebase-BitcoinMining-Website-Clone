@@ -1,0 +1,25 @@
+.walet-funds-link-container{
+    height: 60px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+
+}
+.link-left-container{
+    display: flex;
+    justify-content: flex-start;
+    column-gap:10px;
+    font-size: 20px;
+    color: #fff;
+
+
+}
+.link-right-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:#fff;
+
+}

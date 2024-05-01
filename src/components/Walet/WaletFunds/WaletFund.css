@@ -1,0 +1,6 @@
+.walet-funds-container{
+    margin-top: 20px;
+    display:flex;
+    flex-direction:column;
+    row-gap: 5px;
+}

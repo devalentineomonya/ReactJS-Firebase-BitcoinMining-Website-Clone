@@ -1,0 +1,52 @@
+.walet-item-container {
+    background-color: var(--blue-light);
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 0px;
+
+
+}
+
+.walet-item-left {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+
+}
+
+.walet-item-image {
+    width: 100%;
+    height: 100%;
+
+}
+
+.walet-item-text h4 {
+    color: #ffff;
+    font-weight: 300;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.walet-item-text h1 {
+    font-weight: 500;
+    color: #0ab20a;
+}
+
+.walet-item-right {
+    padding: 0 5px;
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.walet-item-right button {
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}

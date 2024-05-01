@@ -2,6 +2,7 @@ import React from "react";
 import "./ProductCard.css";
 
 const ProductCard = ({productItem, width="125px", height="150px"}) => {
+  
   return (
     <div className="product-card-container" style={{width:width, height:height}}>
       <div className="product-image-container">

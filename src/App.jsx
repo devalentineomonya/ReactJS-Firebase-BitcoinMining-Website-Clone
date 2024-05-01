@@ -7,6 +7,7 @@ import SpinnerLoader from "./components/SpinnerLoader/SpinnerLoader";
 import Products from "./pages/Products/Products";
 import Walet from "./pages/Walet/Walet";
 import Profile from "./pages/Profile/Profile";
+import Login from "./pages/Login/Login";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/products" element={<Products/>} />
           <Route path="/product/:productId" element={<h1>Products Path</h1>} />
           <Route path="/walet" element={<Walet/>} />
-          <Route path="/login" element={<h1>login Path</h1>} />
+          <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<h1>login Path</h1>} />
           <Route path="/profile" element={<Profile/>} />
           <Route path="/*" element={<SpinnerLoader/>} />

@@ -1,0 +1,10 @@
+.login-page-container{
+    padding:20px;
+    height: 730px;
+}
+@media screen and (max-width:768px){
+    .login-page-container{
+        height:100%;
+    }
+    
+}

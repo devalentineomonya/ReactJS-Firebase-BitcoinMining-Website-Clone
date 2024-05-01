@@ -1,0 +1,28 @@
+.login-form-container {
+    height: 350px;
+    background-color: var(--blue);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+
+.login-form-container .login-button {
+    padding: 20px 90px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(to left, #41b06a, #4cc58a);
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+.login-form-container span{
+    color: #43ab49;
+    text-decoration: underline;
+    font-size: 18px;
+}

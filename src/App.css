@@ -1,7 +1,7 @@
 :root {
   --blue: #0e5488;
-  --blue-light-full:#01477d;
-  --blue-light: #01477d89;
+  --light-blue-full:#01477d;
+  --light-blue: #01477d89;
   --green-gradient:linear-gradient(to left, #41b06a, #4cc58a);
   
 }

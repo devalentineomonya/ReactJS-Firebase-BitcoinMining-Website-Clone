@@ -1,5 +1,47 @@
-.profile-info-container{
-    height: 120px;
-    background-color: green;
-    /* display:; */
+.profile-info-container {
+    height: 90px;
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.user-level-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level-image {
+    width: 98%;
+    height: 98%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.user-information {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.user-information h2 {
+    color: #ffa500;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user-information h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.user-information span {
+    color:green;
+    font-weight: 500
+}
+.user-information .bolder-span{
+    color: #fff;
+    font-size: 16px;
 }

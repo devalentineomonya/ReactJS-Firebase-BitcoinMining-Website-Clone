@@ -1,7 +1,7 @@
 .new-card-container {
     height: 220px;
     width: 100%;
-    background-color: var(--blue-light);
+    background-color: var(--light-blue);
     border-radius: 10px;
     padding: 10px 20px;
     display: flex;
